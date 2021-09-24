@@ -1,0 +1,34 @@
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #0967d2;
+  width: 100%;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+  max-width: 1110px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+
+.logout-desktop-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  padding: 8px 16px;
+  color: white;
+  background-color: #0967d2;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+}
