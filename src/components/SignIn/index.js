@@ -67,7 +67,7 @@ class SignIn extends Component {
   renderForgetPassword = () => {
     const {reEnterPassword} = this.state
     return (
-      <>
+      <div>
         <label className="input-label" htmlFor="reEnterPassword">
           SET PASSWORD
         </label>
@@ -85,7 +85,7 @@ class SignIn extends Component {
         >
           CONFORM
         </button>
-      </>
+      </div>
     )
   }
 
